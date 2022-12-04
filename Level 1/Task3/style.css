@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.heading {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 55px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.container {
+  margin: 120px auto;
+  padding: 40px;
+  text-align: center;
+  background-color: #1abc9c;
+  width: 750px;
+  border-radius: 10px;
+}
+
+.input-div {
+  display: inline-block;
+  margin: 10px;
+}
+
+.input-box {
+  padding: 5px 10px;
+  margin: 10px;
+  font-size: 24px;
+  text-align: center;
+  width: 250px;
+  height: 50px;
+  background-color: #e8f4eb;
+  border: 0;
+}
+
+.type-box {
+  padding: 5px 10px;
+  margin: 10px;
+  font-size: 24px;
+  text-align: center;
+  width: 250px;
+  height: 50px;
+  background-color: #e8f4eb;
+  border: 0;
+}
+
+
+.result-box {
+  padding: 5px 10px;
+  margin: 10px;
+  font-size: 24px;
+  text-align: center;
+  width: 550px;
+  height: 50px;
+  background-color: #e8f4eb;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.result-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 5px 10px;
+  margin: 10px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 35px;
+  background-color: #00f2ff;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
